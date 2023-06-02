@@ -19,5 +19,4 @@ if ($buscador<=9) {
 };
 echo "</br>";
 echo '<a href="index.html">Volver</a>';
-
 ?>
