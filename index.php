@@ -1,16 +1,16 @@
 <?php
 $planetas=array(
-    "Mercurio"=>false,
-    "Venus"=>false,
-    "Tierra"=>true,
-    "Marte"=>false,
-    "Jupiter"=>false,
-    "Saturno"=>false,
-    "Urano"=>false,
-    "Neptuno"=>false
+    "Mercurio"=>0.38,
+    "Venus"=>0.91,
+    "Tierra"=>1,
+    "Marte"=>0.38,
+    "Jupiter"=>2.53,
+    "Saturno"=>1.07,
+    "Urano"=>0.92,
+    "Neptuno"=>1.19
 );
-$planetasHab = array_filter($planetas, fn($planetas) => $planetas === true);
-print_r($planetasHab);
+$planetasGrav = array_map(fn($planetas) => $planetas*9.80665 . " m/s^2",$planetas);
+print_r($planetasGrav);
 echo "</br>";
 echo '<a href="index.html">Volver</a>';
 ?>
