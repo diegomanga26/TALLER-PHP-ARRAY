@@ -1,22 +1,7 @@
 <?php
-$planetas = array(
-    "Sol"=>1,
-    "Mercurio"=>2,
-    "Venus"=>3,
-    "Tierra"=>4,
-    "Marte"=>5,
-    "Jupiter"=>6,
-    "Saturno"=>7,
-    "Urano"=>8,
-    "Neptuno"=>9
-);
-$buscador = (int)($_POST["buscador"]);
-$planetasFlip=array_flip($planetas);
-if ($buscador<=9) {
-    echo 'El planeta que buscas es: '.($planetasFlip[$buscador]);
-} else {
-    echo 'No se aceptan valores mayores a 9.';
-};
+$numero = (int)($_POST["cantidad"]);
+$planetas=array_fill(0,$numero,"Inhabitado");
+print_r("La cantidad de planetas que tiene el sistema solar es ". count($planetas));
 echo "</br>";
 echo '<a href="index.html">Volver</a>';
 ?>
