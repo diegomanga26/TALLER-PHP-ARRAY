@@ -15,3 +15,7 @@ En el ejercicio #3 se filtrarán de un array predeterminado todos los planetas h
 ## Ejercicio #4
 
 En el ejercicio #4 se hará un recorrido del array donde a cada elemento del mismo se le hará una operación que multiplicará el valor de la equivalencia de la gravedad del planeta según la de la tierra por el valor de la gravedad de la tierra en m/s^2 para hallar la gravedad real aproximada de cada uno de los planetas.
+
+## Ejercicio #5
+
+En el ejercicio #5 se hace una reducción del array en un solo valor, calculando el total de la masa de toda la flota de naves espaciales. Sólo se Clica en el botón calcular.
