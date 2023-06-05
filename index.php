@@ -1,16 +1,21 @@
 <?php
-$naves=array(
-    "Columbia"=>2040,
-    "Challenger"=>2040,
-    "Discovery"=>2040,
-    "Atlantis"=>2040,
-    "Endeavour"=>2050,
-    "Enterprise"=>2055,
-    "Pathfinder"=>2035,
-    "Freedom"=>2060
+$planetas = array(
+    "sol"=>1,
+    "mercurio"=>2,
+    "venus"=>3,
+    "tierra"=>4,
+    "marte"=>5,
+    "jupiter"=>6,
+    "saturno"=>7,
+    "urano"=>8,
+    "neptuno"=>9
 );
-$masaTotal = array_reduce($naves,fn($sumador,$naves) => $sumador + $naves);
-print_r("La masa total de toda la flota es de " . $masaTotal . " Toneladas.");
+$buscador = strtolower($_POST["buscador"]);
+if (array_key_exists($buscador,$planetas)) {
+    echo "El planeta Existe.";
+} else {
+    echo "El planeta no Existe.";
+};
 echo "</br>";
 echo '<a href="index.html">Volver</a>';
 ?>

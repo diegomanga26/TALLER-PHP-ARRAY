@@ -19,3 +19,7 @@ En el ejercicio #4 se hará un recorrido del array donde a cada elemento del mis
 ## Ejercicio #5
 
 En el ejercicio #5 se hace una reducción del array en un solo valor, calculando el total de la masa de toda la flota de naves espaciales. Sólo se Clica en el botón calcular.
+
+## Ejercicio #6
+
+En el ejercicio #6 se hace la verificación de cualquier planeta del sistema solar, se introduce el nombre del planeta en mayúsculas o minúsculas para verificar su existencia en el sistema solar y devuelve si este existe o no.
