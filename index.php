@@ -1,15 +1,19 @@
 <?php
 $planetas = array(
-    "Jupiter" => array("Ío", "Europa", "Ganimedes" ,"Calisto"),
-    "Saturno" => array("Titan"),
-    "Marte" => array("Fobos","Deimos"),
-    "Urano" => array("Titania","Oberon","Umbriel","Ariel","Miranda"),
-    "Tierra" => array("Luna")
+    "Osiris",
+    "Sol",
+    "Mercurio",
+    "Venus",
+    "Tierra",
+    "Marte",
+    "Jupiter",
+    "Saturno",
+    "Urano",
+    "Neptuno"
 );
-$planeta = $_POST["select"];
-$satelite = $_POST["satelite"];
-array_push($planetas[$planeta],$satelite);
-print_r($planetas[$planeta]);
+print_r($planetas);
+echo "<hr>";
+print_r(array_reverse($planetas));
 echo "<hr>";
 echo '<a href="index.html">Volver</a>';
 ?>

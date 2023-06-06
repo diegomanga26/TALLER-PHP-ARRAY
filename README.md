@@ -47,3 +47,7 @@ En el ejercicio #11 se busca encontrar los planetas que se encuentren en el prim
 ## Ejercicio #12
 
 En el ejercicio #12 se busca añadir satélites a una lista de planetas con sus respectivos satélites. Se añadirán los satélites en la última posición de la lista.
+
+## Ejercicio #13
+
+En el ejercicio #13 se busca invertir el orden de los planetas contenidos en un array.
