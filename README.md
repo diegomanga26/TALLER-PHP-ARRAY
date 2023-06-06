@@ -39,3 +39,7 @@ En el ejercicio #9 se eliminan todos los aliens repetidos de la misma especie en
 ## Ejercicio #10
 
 En el ejercicio #10 se buscan similitudes entre un grupo de planetas y otros, para encontrar planetas en común.
+
+## Ejercicio #11
+
+En el ejercicio #11 se busca encontrar los planetas que se encuentren en el primer sistema solar pero no en el segundo (Esto varía según la organización del "array_diff").
