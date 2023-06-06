@@ -1,20 +1,17 @@
 <?php
-$planetas = array(
-    "sol"=>1,
-    "mercurio"=>2,
-    "venus"=>3,
-    "tierra"=>4,
-    "marte"=>5,
-    "jupiter"=>6,
-    "saturno"=>7,
-    "urano"=>8,
-    "neptuno"=>9
+$naves = array(
+    "cohetes",
+    "satélites",
+    "naves",
+    "transbordadores",
+    "sondas espaciales",
+    "módulos de aterrizaje"
 );
 $buscador = strtolower($_POST["buscador"]);
-if (array_key_exists($buscador,$planetas)) {
-    echo "El planeta Existe.";
+if (in_array($buscador,$naves)) {
+    echo "Ese tipo de nave existe";
 } else {
-    echo "El planeta no Existe.";
+    echo "Ese tipo de nave no existe";
 };
 echo "</br>";
 echo '<a href="index.html">Volver</a>';
