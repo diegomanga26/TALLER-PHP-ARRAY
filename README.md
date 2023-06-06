@@ -43,3 +43,7 @@ En el ejercicio #10 se buscan similitudes entre un grupo de planetas y otros, pa
 ## Ejercicio #11
 
 En el ejercicio #11 se busca encontrar los planetas que se encuentren en el primer sistema solar pero no en el segundo (Esto varía según la organización del "array_diff").
+
+## Ejercicio #12
+
+En el ejercicio #12 se busca añadir satélites a una lista de planetas con sus respectivos satélites. Se añadirán los satélites en la última posición de la lista.

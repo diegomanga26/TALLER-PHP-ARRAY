@@ -1,34 +1,15 @@
 <?php
-$planetas1 = array(
-    "Kepler-452b",
-    "TRAPPIST-1e, f y g",
-    "Sol",
-    "Mercurio",
-    "Venus",
-    "Tierra",
-    "Marte",
-    "Jupiter",
-    "Saturno",
-    "Urano",
-    "Neptuno"
+$planetas = array(
+    "Jupiter" => array("Ío", "Europa", "Ganimedes" ,"Calisto"),
+    "Saturno" => array("Titan"),
+    "Marte" => array("Fobos","Deimos"),
+    "Urano" => array("Titania","Oberon","Umbriel","Ariel","Miranda"),
+    "Tierra" => array("Luna")
 );
-$planetas2 = array(
-    "Osiris",
-    "Sol",
-    "Mercurio",
-    "Venus",
-    "Tierra",
-    "Marte",
-    "Jupiter",
-    "Saturno",
-    "Urano",
-    "Neptuno"
-);
-print_r($planetas1);
-echo "<hr>";
-print_r($planetas2);
-echo "<hr>";
-print_r(array_diff($planetas1,$planetas2));
+$planeta = $_POST["select"];
+$satelite = $_POST["satelite"];
+array_push($planetas[$planeta],$satelite);
+print_r($planetas[$planeta]);
 echo "<hr>";
 echo '<a href="index.html">Volver</a>';
 ?>
