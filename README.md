@@ -27,3 +27,7 @@ En el ejercicio #6 se hace la verificación de cualquier planeta del sistema sol
 ## Ejercicio #7
 
 En el ejercicio #7 se hace la verificación de algún tipo de nave dentro del array de naves. Se introduce el nombre del planeta en mayúsculas o minúsculas para verificar la existencia del valor en el array.
+
+## Ejercicio #8
+
+En el ejercicio #8 se genera un valor aleatorio que corresponderá a una posición en el array, esto devuelve una impresión indicando un planeta totalmente al azar donde se realizará la exploración.

@@ -1,18 +1,17 @@
 <?php
-$naves = array(
-    "cohetes",
-    "satélites",
-    "naves",
-    "transbordadores",
-    "sondas espaciales",
-    "módulos de aterrizaje"
+$planetas = array(
+    1=>"sol",
+    2=>"mercurio",
+    3=>"venus",
+    4=>"tierra",
+    5=>"marte",
+    6=>"júpiter",
+    7=>"saturno",
+    8=>"urano",
+    9=>"neptuno"
 );
-$buscador = strtolower($_POST["buscador"]);
-if (in_array($buscador,$naves)) {
-    echo "Ese tipo de nave existe";
-} else {
-    echo "Ese tipo de nave no existe";
-};
+$aleatorio = array_rand($planetas);
+print_r("El planeta aleatorio a explorar es " . $planetas[$aleatorio]);
 echo "</br>";
 echo '<a href="index.html">Volver</a>';
 ?>
