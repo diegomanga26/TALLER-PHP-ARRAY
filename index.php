@@ -1,17 +1,17 @@
 <?php
-$planetas = array(
-    1=>"sol",
-    2=>"mercurio",
-    3=>"venus",
-    4=>"tierra",
-    5=>"marte",
-    6=>"júpiter",
-    7=>"saturno",
-    8=>"urano",
-    9=>"neptuno"
+$aliens = array(
+    "Wookiees",
+    "Hutts",
+    "Ewoks",
+    "Twi'leks",
+    "Droides astromecánicos",
+    "Wookiees",
+    "Droides astromecánicos"
 );
-$aleatorio = array_rand($planetas);
-print_r("El planeta aleatorio a explorar es " . $planetas[$aleatorio]);
-echo "</br>";
+print_r($aliens);
+echo "<hr>";
+$aliensUniq = array_unique($aliens);
+print_r($aliensUniq);
+echo "<hr>";
 echo '<a href="index.html">Volver</a>';
 ?>

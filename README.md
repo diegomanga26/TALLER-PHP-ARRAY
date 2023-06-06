@@ -31,3 +31,7 @@ En el ejercicio #7 se hace la verificación de algún tipo de nave dentro del ar
 ## Ejercicio #8
 
 En el ejercicio #8 se genera un valor aleatorio que corresponderá a una posición en el array, esto devuelve una impresión indicando un planeta totalmente al azar donde se realizará la exploración.
+
+## Ejercicio #9
+
+En el ejercicio #9 se eliminan todos los aliens repetidos de la misma especie en la lista, se muestran los aliens antes y después del proceso.
