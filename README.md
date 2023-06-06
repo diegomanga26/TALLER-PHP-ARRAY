@@ -35,3 +35,7 @@ En el ejercicio #8 se genera un valor aleatorio que corresponderá a una posici�
 ## Ejercicio #9
 
 En el ejercicio #9 se eliminan todos los aliens repetidos de la misma especie en la lista, se muestran los aliens antes y después del proceso.
+
+## Ejercicio #10
+
+En el ejercicio #10 se buscan similitudes entre un grupo de planetas y otros, para encontrar planetas en común.
